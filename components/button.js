@@ -1,10 +1,10 @@
 import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 
-function Button() {
+function Button({ title }) {
     return (
         <View style={styles.container}>
             <TouchableOpacity style={styles.button}>
-                <Text style={styles.text}>Registarion</Text>
+                <Text style={styles.text}>{title}</Text>
             </TouchableOpacity>
         </View>
     )

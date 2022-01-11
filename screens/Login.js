@@ -24,7 +24,7 @@ function Login() {
             <TouchableOpacity style={styles.forgotPassContainer}>
                 <Text style={styles.forgotPass}>Forget Password</Text>
             </TouchableOpacity>
-            <Button />
+            <Button title="Login" />
             {/* Footer */}
             <View style={styles.footer}>
                 <Text>Don’t have an account?</Text>

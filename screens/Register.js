@@ -24,7 +24,7 @@ function Register() {
                 <Input placeholder="Mail" />
                 <Input placeholder="Phone" />
             </View>
-            <Button />
+            <Button title="Register" />
             {/* Footer */}
             <View style={styles.footer}>
                 <Text>Already have an acount?</Text>
