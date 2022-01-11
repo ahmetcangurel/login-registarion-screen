@@ -19,10 +19,10 @@ function Register() {
             </View>
             {/* Inputs & Button */}
             <View>
-                <Input />
-                <Input />
-                <Input />
-                <Input />
+                <Input placeholder="Firstname" />
+                <Input placeholder="Lastname" />
+                <Input placeholder="Mail" />
+                <Input placeholder="Phone" />
             </View>
             <Button />
             {/* Footer */}

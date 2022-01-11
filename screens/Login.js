@@ -18,8 +18,8 @@ function Login() {
             </View>
             {/* Inputs & Button */}
             <View>
-                <Input />
-                <Input />
+                <Input placeholder="Mail" />
+                <Input placeholder="Password" />
             </View>
             <TouchableOpacity style={styles.forgotPassContainer}>
                 <Text style={styles.forgotPass}>Forget Password</Text>
