@@ -1,13 +1,10 @@
-import { SafeAreaView, Text, View } from 'react-native';
-
-import Login from "./screens/Login";
-import Register from "./screens/Register";
+import { SafeAreaView } from 'react-native';
+import Navigation from './Navigation';
 
 export default function App() {
   return (
-    <SafeAreaView>
-      <Login />
-      {/* <Register /> */}
+    <SafeAreaView style={{ flex: 1 }}>
+      <Navigation />
     </SafeAreaView>
-  );
+  )
 }

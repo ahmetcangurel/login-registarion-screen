@@ -5,7 +5,9 @@ import Button from "../components/button";
 import Circle from "../components/circle";
 import Input from "../components/input";
 
-function Register() {
+function Register(props) {
+
+    const { navigation } = props;
     return (
         <KeyboardAwareScrollView style={styles.container}>
             <Circle />
@@ -29,7 +31,10 @@ function Register() {
             <View style={styles.footer}>
                 <Text>Already have an acount?</Text>
                 <TouchableOpacity>
-                    <Text style={styles.signIn}> Sign in</Text>
+                    <Text
+                        style={styles.signIn}
+                        onPress={() => navigation.navigate('Login')}
+                    > Sign in</Text>
                 </TouchableOpacity>
             </View>
         </KeyboardAwareScrollView>
