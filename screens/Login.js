@@ -8,6 +8,7 @@ import Input from "../components/input";
 function Login(props) {
 
     const { navigation } = props;
+    
     return (
         <KeyboardAwareScrollView style={styles.container}>
             <Circle />
