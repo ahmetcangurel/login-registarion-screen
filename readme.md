@@ -1,5 +1,5 @@
 
-# Simple Blog Theme
+# Login-Register Screens
 
 It was created using React Native technologies. You can find the screenshots below.
 
